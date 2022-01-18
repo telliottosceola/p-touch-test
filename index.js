@@ -35,7 +35,7 @@ socket.on('ready', function(){
       // printPacket.push(CONSTANTS.AUTO_CUT);
       // printPacket.push(CONSTANTS.UNKNOWN);
       // printPacket.push(CONSTANTS.MARGIN);
-      printPacket.push(CONSTANTS.TEST_IMAGE);
+      printPacket.push(CONSTANTS.TEST_IMAGE_TWO);
       var printPayload = Buffer.concat(printPacket);
       socket.write(printPayload, function(err) {
         if (err) {
